@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70312E5F21662B310099C609 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70312E5E21662B310099C609 /* PlaySoundsViewController.swift */; };
 		703DD60821643818003CA798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703DD60721643818003CA798 /* AppDelegate.swift */; };
-		703DD60A21643818003CA798 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703DD60921643818003CA798 /* ViewController.swift */; };
+		703DD60A21643818003CA798 /* RecordSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703DD60921643818003CA798 /* RecordSoundViewController.swift */; };
 		703DD60D21643818003CA798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703DD60B21643818003CA798 /* Main.storyboard */; };
 		703DD60F2164381B003CA798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 703DD60E2164381B003CA798 /* Assets.xcassets */; };
 		703DD6122164381B003CA798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703DD6102164381B003CA798 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70312E5E21662B310099C609 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		703DD60421643818003CA798 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		703DD60721643818003CA798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		703DD60921643818003CA798 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		703DD60921643818003CA798 /* RecordSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundViewController.swift; sourceTree = "<group>"; };
 		703DD60C21643818003CA798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		703DD60E2164381B003CA798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		703DD6112164381B003CA798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				703DD60721643818003CA798 /* AppDelegate.swift */,
-				703DD60921643818003CA798 /* ViewController.swift */,
+				703DD60921643818003CA798 /* RecordSoundViewController.swift */,
 				703DD60B21643818003CA798 /* Main.storyboard */,
 				703DD60E2164381B003CA798 /* Assets.xcassets */,
 				703DD6102164381B003CA798 /* LaunchScreen.storyboard */,
 				703DD6132164381B003CA798 /* Info.plist */,
+				70312E5E21662B310099C609 /* PlaySoundsViewController.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				703DD60A21643818003CA798 /* ViewController.swift in Sources */,
+				703DD60A21643818003CA798 /* RecordSoundViewController.swift in Sources */,
+				70312E5F21662B310099C609 /* PlaySoundsViewController.swift in Sources */,
 				703DD60821643818003CA798 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +293,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = biz.nanosoftware.PitchPerfect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.udacity.pichperfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +311,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = biz.nanosoftware.PitchPerfect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.udacity.pichperfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
